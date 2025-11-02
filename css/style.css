@@ -220,6 +220,12 @@ span.count {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
+.btn_bookmark:hover {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(57, 100, 57);
+}
+
 .btn_bookmark img {
   width: 18px;
   height: 18px;
@@ -253,6 +259,14 @@ span.count {
   display: flex;
   align-items: baseline;
   gap: 6px;
+}
+
+.card__body span:hover {
+  text-decoration: underline;
+}
+
+.card__meta span:hover {
+  text-decoration: underline;
 }
 
 .card__price .value {
