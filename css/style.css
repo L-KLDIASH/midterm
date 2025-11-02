@@ -64,6 +64,11 @@
 }
 
 .property,
+.price_range input {
+  accent-color: green;
+}
+
+.property,
 .price_range {
   display: flex;
   flex-direction: column;
