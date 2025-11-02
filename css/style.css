@@ -153,8 +153,7 @@ span.count {
   font-weight: 700;
   color: #111827;
   margin-bottom: 24px;
-  text-align: left;
-  padding-left: 24px;
+  padding-left: 155px;
 }
 
 .cards_grid {
@@ -183,7 +182,8 @@ span.count {
 
 .main_card {
   position: relative;
-  height: 424px;
+  height: 300px;
+  width: 385px;
 }
 
 .main_card img {
@@ -273,4 +273,60 @@ span.count {
   color: #374151;
   font-size: 13px;
   border-top: 1px solid #eef2f7;
+}
+
+.footer {
+  background: #29b24e;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 24px;
+  max-width: 1640px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__nav,
+.footer__social {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__nav a,
+.footer__social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer__nav a:hover,
+.footer__social a:hover {
+  text-decoration: underline;
+}
+
+.footer__email {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  margin: 16px 0;
+}
+
+.footer__copy {
+  font-size: 13px;
+  opacity: 0.9;
 }
