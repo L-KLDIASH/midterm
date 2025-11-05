@@ -175,11 +175,6 @@
   font-size: 32px;
 }
 
-.price .per {
-  color: #6b7280;
-  font-size: 13px;
-}
-
 .actions {
   display: flex;
   gap: 12px;
@@ -203,4 +198,59 @@
 .btn__call {
   background: #29b24e;
   color: #fff;
+}
+
+.footer {
+  background: #29b24e;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 32px 140px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__nav,
+.footer__social {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__nav a,
+.footer__social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer__nav a:hover,
+.footer__social a:hover {
+  text-decoration: underline;
+}
+
+.footer__email {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  margin: 16px 0;
+}
+
+.footer__copy {
+  font-size: 13px;
+  opacity: 0.9;
 }
