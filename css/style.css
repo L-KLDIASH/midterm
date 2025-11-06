@@ -451,8 +451,8 @@ span.count {
   body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* გვერდი იფარებს მთელ ეკრანს */
-    padding-bottom: 0; /* რაც მობილურისთვის გვქონდა, ვშლით */
+    min-height: 100vh;
+    padding-bottom: 0;
   }
 
   .mobile-tabbar {
@@ -463,10 +463,10 @@ span.count {
   }
 
   .footer {
-    margin-top: auto; /* ფუტერი მიებჯინოს ქვედა კიდეს */
+    margin-top: auto;
     margin-bottom: 0;
     padding-bottom: 16px;
-    border-radius: 20px; /* თუ გინდა ქვედა კიდეზე მრგვალი არ იყოს: 20px 20px 0 0 */
+    border-radius: 20px;
   }
 }
 
