@@ -447,8 +447,27 @@ span.count {
   opacity: 0.9;
 }
 
-.mobile-tabbar {
-  display: none;
+@media (min-width: 481px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* გვერდი იფარებს მთელ ეკრანს */
+    padding-bottom: 0; /* რაც მობილურისთვის გვქონდა, ვშლით */
+  }
+
+  .mobile-tabbar {
+    display: none;
+    height: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .footer {
+    margin-top: auto; /* ფუტერი მიებჯინოს ქვედა კიდეს */
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    border-radius: 20px; /* თუ გინდა ქვედა კიდეზე მრგვალი არ იყოს: 20px 20px 0 0 */
+  }
 }
 
 @media (max-width: 375px) {
