@@ -28,6 +28,14 @@
 .header_navigation ul li a {
   text-decoration: none;
   color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header_navigation ul li a:hover {
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 .header_navigation button {
@@ -37,6 +45,10 @@
   background-color: #29b24e;
   color: white;
   cursor: pointer;
+}
+
+.header_navigation button:hover {
+  padding: 16px 32px;
 }
 
 .details {
@@ -81,6 +93,11 @@
   gap: 16px;
   font-size: 12px;
   color: #6b7280;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 12px;
+  line-height: 23px;
 }
 .badge {
   background: #22c55e;
@@ -95,18 +112,42 @@
   font-size: 24px;
   line-height: 1.25;
   margin-top: 24px;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0px;
 }
 
 .details__loc {
   color: #6b7280;
   font-size: 13px;
   margin-top: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
 }
 
 .details__desc {
+  max-width: 611px;
+  width: 100%;
+  height: 69px;
+  opacity: 80%;
   color: #4b5563;
   line-height: 1.55;
   margin-top: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0px;
 }
 
 .details__tags {
@@ -120,6 +161,12 @@
   padding: 14px 0;
   color: #374151;
   margin-top: 57px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0px;
 }
 
 .details__specs {
@@ -128,6 +175,12 @@
   gap: 60px;
   align-items: flex-start;
   margin-top: 41px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0px;
 }
 
 .col {
@@ -195,9 +248,21 @@
   color: #29b24e;
 }
 
+.btn__messege:hover {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(47, 70, 38);
+}
+
 .btn__call {
   background: #29b24e;
   color: #fff;
+}
+
+.btn__call:hover {
+  width: 70px;
+  height: 50px;
+  background-color: rgb(15, 136, 80);
 }
 
 .footer {

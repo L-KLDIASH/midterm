@@ -33,6 +33,11 @@
   font-style: normal;
 }
 
+.header_navigation ul li a:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
 .header_navigation button {
   border: none;
   padding: 13px 26px;
@@ -40,6 +45,10 @@
   background-color: #29b24e;
   color: white;
   cursor: pointer;
+}
+
+.header_navigation button:hover {
+  padding: 16px 32px;
 }
 
 .container {
